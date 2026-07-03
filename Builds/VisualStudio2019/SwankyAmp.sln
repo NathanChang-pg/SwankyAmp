@@ -1,5 +1,6 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2019
+# Visual Studio Version 16
 
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwankyAmp - Standalone Plugin", "SwankyAmp_StandalonePlugin.vcxproj", "{09E9C180-CFB5-85DF-3F44-A08333E2B2A9}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -9,6 +10,7 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwankyAmp - VST3", "SwankyAmp_VST3.vcxproj", "{88210271-55F7-985E-C559-6002F5942DF2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1FBB46B9-AB44-EC18-B8BD-F3AA524DD27C} = {1FBB46B9-AB44-EC18-B8BD-F3AA524DD27C}
+		{10E9A57A-9172-D3D8-89A8-6F2D98E847BF} = {10E9A57A-9172-D3D8-89A8-6F2D98E847BF}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwankyAmp - AAX", "SwankyAmp_AAX.vcxproj", "{F03727D4-6AC3-3AFB-03A4-6AE5A9731393}"
@@ -17,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwankyAmp - AAX", "SwankyAm
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwankyAmp - Shared Code", "SwankyAmp_SharedCode.vcxproj", "{1FBB46B9-AB44-EC18-B8BD-F3AA524DD27C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwankyAmp - VST3 Manifest Helper", "SwankyAmp_VST3ManifestHelper.vcxproj", "{10E9A57A-9172-D3D8-89A8-6F2D98E847BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +44,10 @@ Global
 		{1FBB46B9-AB44-EC18-B8BD-F3AA524DD27C}.Debug|x64.Build.0 = Debug|x64
 		{1FBB46B9-AB44-EC18-B8BD-F3AA524DD27C}.Release|x64.ActiveCfg = Release|x64
 		{1FBB46B9-AB44-EC18-B8BD-F3AA524DD27C}.Release|x64.Build.0 = Release|x64
+		{10E9A57A-9172-D3D8-89A8-6F2D98E847BF}.Debug|x64.ActiveCfg = Debug|x64
+		{10E9A57A-9172-D3D8-89A8-6F2D98E847BF}.Debug|x64.Build.0 = Debug|x64
+		{10E9A57A-9172-D3D8-89A8-6F2D98E847BF}.Release|x64.ActiveCfg = Release|x64
+		{10E9A57A-9172-D3D8-89A8-6F2D98E847BF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
